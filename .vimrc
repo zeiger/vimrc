@@ -16,6 +16,8 @@ map q :quit<CR>
 map ç q
 map <C-s> :w<CR>
 
+nmap Q :quit<CR>
+
 inoremap <silent> <C-S> <C-O>:update<CR>
 
 noremap  <F2> :Vexplore<CR>
