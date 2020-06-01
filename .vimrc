@@ -12,8 +12,7 @@ noremap <F4> :set hlsearch! hlsearch?<CR>
 inoremap <F4> :set hlsearch! hlsearch?<CR> 
 
 map <ENTER> i
-map q :quit<CR>
-map ç q
+map ç :quit<CR>
 map <C-s> :w<CR>
 
 nmap Q :quit<CR>
