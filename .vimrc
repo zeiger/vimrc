@@ -11,7 +11,7 @@ set ignorecase
 noremap <F4> :set hlsearch! hlsearch?<CR>
 inoremap <F4> :set hlsearch! hlsearch?<CR> 
 
-map <ENTER> i
+map <ENTER> a
 map ç :quit<CR>
 map <C-s> :w<CR>
 
