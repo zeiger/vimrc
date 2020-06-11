@@ -11,6 +11,8 @@ set ignorecase
 noremap <F4> :set hlsearch! hlsearch?<CR>
 inoremap <F4> :set hlsearch! hlsearch?<CR> 
 
+nmap <F10> :vert terminal<CR>
+
 map <ENTER> a
 map ç :quit<CR>
 map <C-s> :w<CR>
