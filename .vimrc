@@ -32,10 +32,13 @@ autocmd TextChanged,TextChangedI <buffer> silent write
 
 vnoremap <C-y> :!sed -e 's/^[[:space:]]*\|[[:space:]]*$//' \| xclip -selection clipboard<CR>
 
-imap [ []<left>
-imap < <><left>
-imap { {}<left>
-imap ( ()<left>
+inoremap [ []<left>
+inoremap < <><left>
+inoremap { {}<left>
+inoremap ( ()<left>
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ` ``<left>
 
 let g:netrw_banner=0
 
